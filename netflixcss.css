@@ -1,0 +1,439 @@
+  body {
+      margin: 0px;
+      padding: 0px;
+      background-color: black;
+
+  }
+
+  #master_box {
+      overflow: hidden;
+      background-color: #232323;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .header {
+      overflow: hidden;
+      background-image: url("IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large_edited.jpg");
+      display: flex;
+      flex-direction: column;
+      gap: 100px;
+      height: 110vmin;
+      background-size: 120% 110%;
+      background-repeat: no-repeat;
+      color: aliceblue;
+
+
+
+  }
+
+  #heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+
+  }
+
+  #heading h1 {
+
+      font-family: sans-serif;
+      font-weight: bolder;
+      font-size: auto;
+      position: relative;
+      font-size: 40px;
+      filter: brightness(1);
+      margin: 0px;
+
+  }
+
+  #heading p {
+
+
+      text-align: center;
+      font-size: medium;
+      filter: brightness(2);
+      line-height: 36px;
+      font-family: sans-serif;
+
+
+  }
+
+  ::placeholder {
+      color: white;
+      opacity: 1;
+      /* Firefox */
+      font-size: larger;
+  }
+
+  #nav {
+      width: 95%;
+      height: 60px;
+
+
+
+  }
+
+  nav {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+
+
+
+  }
+
+
+
+  #logo {
+
+      height: 80px;
+      width: 110px;
+
+
+  }
+
+  #logo img {
+
+
+      margin: 20px;
+
+
+  }
+
+  .box1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 100vmin;
+      background-color: rgb(3, 3, 3);
+      margin: 5px 0px 0px 0px;
+      position: relative;
+  }
+
+  .box2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      width: 100%;
+
+      padding-bottom: 50px;
+      background-color: rgb(3, 3, 3);
+      margin: 5px 0px 0px 0px;
+
+  }
+
+  .box3 {
+      width: 100%;
+      padding-bottom: 30px;
+      background-color: rgb(3, 3, 3);
+      margin: 5px 0px 0px 0px;
+  }
+
+  .box3 ul {
+
+      padding: 0%;
+      list-style: none;
+
+
+  }
+
+  .box3 ul li a {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 15px 15px 0px;
+      display: flex;
+      width: 150px;
+      font-size: 15px;
+
+
+  }
+
+
+
+  .box3 ul ul {
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+
+
+
+
+  #private_b1 {
+      flex-direction: row-reverse;
+
+  }
+
+  #private_b2 {
+      flex-direction: row-reverse;
+
+  }
+
+  #box1_title {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: azure;
+      width: 390px;
+
+  }
+
+  #private_b1 #box1_title {
+
+      width: 400px;
+
+  }
+
+  #private_b2 #box1_title {
+
+      width: 380px;
+
+  }
+
+
+
+
+  #box1_title2 {
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: azure;
+    width: 390px;
+  }
+
+
+
+
+  .box1 span {
+      font-weight: bolder;
+      font-size: 40px;
+      font-family: sans-serif;
+
+
+  }
+
+  .box1 p {
+      font-size: larger;
+
+
+  }
+
+  .box2 span {
+      color: aliceblue;
+      font-size: 35px;
+      font-family: sans-serif;
+      margin-top: 40px;
+      font-weight: bolder;
+
+  }
+
+
+  .list {
+      color: aliceblue;
+      width: 95%;
+      background-color: #2d2d2d;
+      height: 50px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+
+  }
+
+  .list span {
+      position: relative;
+      top: -38px;
+      font-weight: lighter;
+      font-family: 'Segoe UI';
+      left: -15px;
+
+  }
+
+  .list p {
+      margin-left: 15px;
+      font-size: large;
+
+  }
+
+  .list:hover {
+      background-color: #454343;
+
+  }
+
+  #hero {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+  }
+
+  input {
+      background: #242222;
+      filter: opacity(.80);
+      border: solid #81817e .01px;
+      height: 35px;
+      border-radius: 5px;
+      color: white;
+      width: 260px;
+  }
+
+
+  button {
+      width: 130px;
+      height: 36px;
+      background-color: #e50914;
+      border-style: none;
+      border-radius: 3px;
+      color: aliceblue;
+      font-size: medium;
+  }
+
+  button {
+      font-family: sans-serif;
+  }
+
+  button:hover {
+      background-color: rgb(209, 8, 8);
+  }
+
+  .amo{
+    width:50%;
+    overflow:hidden;
+    position:relative;
+  }
+
+  .amo video{
+    position:absolute;
+    top:2vw;
+    left:8.5vw;
+  }
+
+  @media screen and (max-width: 555px) {
+
+      button {
+          height: 45px;
+
+      }
+ 
+    .amo{
+        width: 80%;
+    }
+    
+    .amo video{
+        position:absolute;
+        top:4vw;
+        left:13vw;
+      }
+
+      #heading h1 {
+          font-size: 30px;
+          text-align: center;
+      }
+
+      #hero {
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+      }
+
+      #heading {
+          padding: 0px 25px 0px 25px;
+
+
+      }
+
+      #heading p {
+          padding: 0px 25px 0px 25px;
+          line-height: 36px;
+          font-size: large;
+
+      }
+
+      .box1 {
+
+          flex-direction: column;
+          height: 140vmin;
+
+      } 
+
+      #logo {
+
+          width: 90px;
+
+      }
+
+
+      #private_b1 {
+          flex-direction: column;
+
+
+      }
+
+      #private_b2 {
+          flex-direction: column;
+
+
+      }
+
+      #box1_title {
+
+          margin-top: 75px;
+          padding: 5px;
+      }
+
+      #private_b1 #box1_title {
+          padding: 20px;
+          margin-top: 75px;
+      }
+
+      #private_b2 #box1_title {
+
+          margin-top: 75px;
+      }
+
+
+      .header {
+
+          background-size: 230% 120%;
+          height: 70vmax;
+          gap: 2vh;
+
+
+      }
+
+
+      .box1 span {
+          text-align: center;
+      }
+
+      .box2 span {
+          text-align: center;
+          font-size: 30px;
+      }
+
+      .box1 p {
+          text-align: center;
+      }
+
+  
+      #private_b1 #box1_title2 img {
+          height: 50%;
+
+      }
+
+      #private_b2 #box1_title2 img {
+          height: 50%;
+
+      }
+
+
+
+
+  }
