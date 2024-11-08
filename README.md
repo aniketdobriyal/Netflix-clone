@@ -11,7 +11,7 @@ A front-end clone of Netflix that showcases trending and popular movies and TV s
 
 ## Screenshots
 
-![Home Page](screenshot-home.png)
+![Home Page](screenshot-home.jpeg)
 
 *Replace with screenshots of your app if available.*
 
