@@ -1,4 +1,4 @@
-# Netflix Clone (Front-End Only)
+# Netflix Clone (Home-page Only)
 
 A front-end clone of Netflix that showcases trending and popular movies and TV shows. This project focuses on replicating the Netflix UI using React and integrates with the TMDb (The Movie Database) API for movie data. Built for educational purposes to demonstrate front-end development skills and API integration.
 
