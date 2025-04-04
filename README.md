@@ -13,7 +13,7 @@ A front-end clone of Netflix that showcases trending and popular movies and TV s
 
 ![Home Page](screenshot-home.jpeg)
 
-*Replace with screenshots of your app if available.*
+*live Demo : https://aniketdobriyal.github.io/Netflix-clone/*
 
 ## Technologies Used
 
